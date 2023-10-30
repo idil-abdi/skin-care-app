@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export const Navigation = () => {
     return (
-        <Navbar bg="dark" data-bs-theme="dark" collapseOnSelect expand="sm" className="bg-body-tertiary">
+        <Navbar bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary">
             <Container>
                 <Navbar.Brand href="#home">Skin Care Brand</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
