@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className='bg-warning-subtle mt-5 text-black'>
             <Container>
-                <Stack className="justify-content-between"  gap={3} direction="horizontal">
+                <div className="pt-2 d-flex flex-row justify-content-center gap-5">
                     <div>
                         <h2>Sitemap</h2>
                         <ul>
@@ -32,7 +32,7 @@ export const Footer = () => {
                             <Pinterest/>
                         </Stack>
                     </div>
-                </Stack>
+                </div>
             </Container>
         </div>
     )
