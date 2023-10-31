@@ -2,11 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import '../index.css'
 
 
 export const Navigation = () => {
     return (
-        <Navbar bg="dark" data-bs-theme="dark" collapseOnSelect expand="lg" className="bg-body-tertiary">
+        
+        <div className="py-4 bg-warning-subtle">
+        <Navbar bg="light" data-bs-theme="light" collapseOnSelect expand="lg" className=''>
             <Container>
                 <Navbar.Brand href="/">Skin Care Brand</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,5 +23,6 @@ export const Navigation = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </div>
     )
 }
