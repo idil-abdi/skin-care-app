@@ -3,8 +3,11 @@ import Card from 'react-bootstrap/Card';
 import DropletImg from '../img/droplets.png'
 import ProductImg from '../img/niacinamide.png'
 import { Container } from 'react-bootstrap';
+import { useState } from 'react';
+import { ProductModal } from './ProductModal';
 
 export const Item = () => {
+    const [modalShow, setModalShow] = useState(false);
 
     const headerBackground = {
         backgroundColor: '#fff3cd',
@@ -22,7 +25,8 @@ export const Item = () => {
             <Card.Body>
                 <Card.Title className='text-center'>The Ordinary Niacinamide 10% + Zinc 1%</Card.Title>
                 <div className='d-flex gap-2 justify-content-center '>
-                <Button variant="success">Shop Now</Button>
+                <Button variant="success" onClick={() => setModalShow(true)}>Shop Now</Button>
+                <ProductModal show={modalShow} onHide={() => setModalShow(false)}/>
                 <p className='border rounded px-3 py-2 m-0  bg-success text-white'>£8.00</p>
                 </div>
             </Card.Body>

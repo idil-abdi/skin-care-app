@@ -9,7 +9,7 @@ export const Navigation = () => {
     return (
         
         <div className="py-4 bg-warning-subtle">
-        <Navbar bg="light" data-bs-theme="light" collapseOnSelect expand="lg" className=''>
+        <Navbar bg="light" data-bs-theme="light" collapseOnSelect expand="md" className=''>
             <Container>
                 <Navbar.Brand href="/">Skin Care Brand</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
