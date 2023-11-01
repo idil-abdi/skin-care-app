@@ -5,15 +5,16 @@ export const Slideshow = ({slides}) => {
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const sliderStyles = {
-        height: '100%',
+        height: '150%',
+        width: '75%',
         position: 'relative'
     }
 
     const slideStyles = {
         width: '100%',
         height: '100%',
-        borderRadius: '10px',
-        backgroundPosition: 'cover',
+        borderRadius: '50px',
+        backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundImage: `url(${slides[currentIndex].url})`,
     }

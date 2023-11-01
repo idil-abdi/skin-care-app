@@ -34,6 +34,9 @@ export const Footer = () => {
                     </div>
                 </div>
             </Container>
+            <div className="bg-warning-subtle py-1" >
+            <p className="text-center bg-white">Copyright 2023 All Rights Reserved Company Name.</p>
+         </div>
         </div>
     )
 }
