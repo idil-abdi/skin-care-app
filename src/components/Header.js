@@ -25,8 +25,8 @@ export const Header = () => {
                         <li>Learn to love your skin more.</li>
                     </ul>
                     <div className='d-flex justify-content-center gap-3'>
-                        <button  className='border-0 bg-success text-white'>Shop Now</button>
-                        <button className='border-0 bg-success text-white'>Learn More</button>
+                        <button  className='border-0 rounded py-2 px-4 bg-success text-white'>Shop Now</button>
+                        <button className='border-0 rounded py-2 px-4 bg-success text-white'>Learn More</button>
                     </div>
                 </div>
                 <div style={containerStyle}><Slideshow slides={slides}/></div>
