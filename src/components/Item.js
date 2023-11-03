@@ -5,6 +5,7 @@ import ProductImg from '../img/niacinamide.png'
 import { Container } from 'react-bootstrap';
 import { useState } from 'react';
 import { ProductModal } from './ProductModal';
+import { Plus } from 'react-bootstrap-icons';
 
 export const Item = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -21,6 +22,9 @@ export const Item = () => {
         <Card style={{ width: '18rem' }}>
             <Card.Header style={headerBackground} className='p-0'>
                 <Card.Img  variant="top" src={ProductImg} />
+                <div className='d-flex justify-content-end p-2'>
+                    <Button className='border-0 bg-success'><Plus/></Button>
+                </div>
             </Card.Header>
             <Card.Body>
                 <Card.Title className='text-center'>The Ordinary Niacinamide 10% + Zinc 1%</Card.Title>

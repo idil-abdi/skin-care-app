@@ -1,5 +1,6 @@
 import { Container, Stack } from 'react-bootstrap';
 import { Slideshow } from '../components/Slideshow'
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
     const slides = [
@@ -25,7 +26,7 @@ export const Header = () => {
                         <li>Learn to love your skin more.</li>
                     </ul>
                     <div className='d-flex justify-content-center gap-3'>
-                        <button  className='border-0 rounded py-2 px-4 bg-success text-white'>Shop Now</button>
+                        <Link className='border-0 rounded py-2 px-4 bg-success text-white' to='/Products'>Shop Now</Link>
                         <button className='border-0 rounded py-2 px-4 bg-success text-white'>Learn More</button>
                     </div>
                 </div>
