@@ -1,10 +1,8 @@
-import { Stack } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
 export const Review = () => {
     return (
-        <Stack direction='horizontal'>
-        <Card className='mb-5 text-center'>
+        <Card className='mb-5 text-center w-30'>
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                 <p>
@@ -17,6 +15,6 @@ export const Review = () => {
                 </blockquote>
             </Card.Body>
         </Card>
-        </Stack>
+
     )
 }

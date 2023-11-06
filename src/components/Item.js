@@ -2,7 +2,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import DropletImg from '../img/droplets.png'
 import ProductImg from '../img/niacinamide.png'
-import { Container } from 'react-bootstrap';
 import { useState } from 'react';
 import { ProductModal } from './ProductModal';
 import { Plus } from 'react-bootstrap-icons';
@@ -18,7 +17,6 @@ export const Item = () => {
     }
 
     return (
-        <Container>
         <Card style={{ width: '18rem' }}>
             <Card.Header style={headerBackground} className='p-0'>
                 <Card.Img  variant="top" src={ProductImg} />
@@ -35,6 +33,5 @@ export const Item = () => {
                 </div>
             </Card.Body>
         </Card>
-        </Container>
     )
 }

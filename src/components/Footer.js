@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <div className='bg-warning-subtle mt-5 text-black'>
             <Container>
-                <div className="pt-2 d-flex flex-row justify-content-center gap-5">
+                <div className="pt-2 d-flex flex-wrap flex-row justify-content-center gap-5">
                     <div>
                         <h2>Sitemap</h2>
                         <ul>
@@ -25,7 +25,7 @@ export const Footer = () => {
                     </div>
                     <div>
                         <h2>Social Media</h2>
-                        <Stack direction="horizontal" className="justify-content-evenly" gap={2}>
+                        <Stack direction="horizontal" className="justify-content-evenly pb-3" gap={2}>
                             <Facebook/>
                             <Twitter/>
                             <Instagram/>
