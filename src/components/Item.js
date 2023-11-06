@@ -21,7 +21,7 @@ export const Item = () => {
             <Card.Header style={headerBackground} className='p-0'>
                 <Card.Img  variant="top" src={ProductImg} />
                 <div className='d-flex justify-content-end p-2'>
-                    <Button className='border-0 bg-success'><Plus/></Button>
+                    <Button className='border-0 bg-success' ><Plus/></Button>
                 </div>
             </Card.Header>
             <Card.Body>

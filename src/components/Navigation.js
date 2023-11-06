@@ -6,8 +6,15 @@ import '../index.css'
 
 
 export const Navigation = () => {
-    return (
-        
+    const checkoutCount = {
+        position: 'relative',
+        left: '-3px',
+        top: '-6px',
+        fontSize: '15px',
+        color: 'red',
+        display: 'inline',
+    }
+    return (        
         <div className="py-4 bg-warning-subtle">
         <Navbar bg="light" data-bs-theme="light" collapseOnSelect expand="md" className=''>
             <Container>
@@ -17,7 +24,7 @@ export const Navigation = () => {
                     <Nav className="me-auto">
                         <Link className="nav-link" to='/'>Home</Link>
                         <Link className="nav-link" to='/products'>Products</Link>
-                        <Link className="nav-link" to='/checkout'>Checkout</Link>
+                        <Link className="nav-link" to='/checkout'>Checkout <div style={checkoutCount}>0</div> </Link>
                         <Link className="nav-link" to='/contact'>Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
