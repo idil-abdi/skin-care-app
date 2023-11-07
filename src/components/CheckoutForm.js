@@ -5,7 +5,7 @@ export const CheckoutForm = () => {
     return (
         <div className="col-sm-4 border py-2">
             <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="johnsmith@gmail.com" />
                 <Form.Text className="text-danger">
@@ -13,7 +13,7 @@ export const CheckoutForm = () => {
                 </Form.Text>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="forShipping">
                 <Form.Label>Shipping Address</Form.Label>
                 <Form.Control type="text" placeholder="Full Name" />
                 <Form.Text className="text-danger">
@@ -29,7 +29,7 @@ export const CheckoutForm = () => {
                 </Form.Text>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formCardDetail">
                 <Form.Label>Card Detail</Form.Label>
                 <Form.Control type="text" placeholder="Card Number" />
                 <Form.Text className="text-danger">
@@ -49,9 +49,8 @@ export const CheckoutForm = () => {
                         Please enter a valid CVC.
                         </Form.Text>
                     </Stack>
-                    
                 </Stack>
-                
+
             </Form.Group>
 
             </Form>
