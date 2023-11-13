@@ -1,6 +1,11 @@
-import { Image, Stack } from "react-bootstrap"
+import { Button, Stack } from "react-bootstrap"
 import DropletImg from '../img/droplets.png'
 import ProductImg from '../img/niacinamide.png'
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import { Dash } from 'react-bootstrap-icons';
+
 
 export const CheckoutItemInfo = () => {
     const headerBackground = {
@@ -8,21 +13,33 @@ export const CheckoutItemInfo = () => {
         backgroundImage: `url(${DropletImg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        width: '175px',
+        width: '185px',
     }
 
     return (
         <div className="col-sm-6 border">
             <h1>1 Item</h1>
             <hr/>
-            <div className="row m-2">
-                <div className="col-md-4 p-0 mr-4">
-                    <Image style={headerBackground} src={ProductImg}/>
+                    <Card>
+                        <Row className="gx-0 ">
+                            <Col >
+                                <Card.Img style={headerBackground} src={ProductImg}/>
+                            </Col>
+                            <Col md={7} lg={8}>
+                                <Card.Body>
+                                <Card.Title>Card title</Card.Title>
+                                <Card.Text>
+                                    This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit
+                                    longer.
+                                </Card.Text>
+                                </Card.Body>
+                                <div className='d-flex justify-content-end p-2'>
+                    <Button className='border-0 bg-success' ><Dash/></Button>
                 </div>
-                <div className="col-md-8 p-0">
-                    <p className="m-0">Lorem ipsum dolor sit amet. A mollitia blanditiis in ipsum quis qui accusantium consequatur. Hic reprehenderit molestiae sed blanditiis maiores et nulla autem est quasi quidem.</p>
-                </div>
-            </div>             
+                            </Col>
+                        </Row>
+                    </Card>
             <hr/>
             <Stack direction="horizontal" className="justify-content-between">
                 <div>

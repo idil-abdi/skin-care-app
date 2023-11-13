@@ -1,7 +1,6 @@
 import { Button, Container } from "react-bootstrap"
 import { CheckoutForm } from "../components/CheckoutForm"
 import { CheckoutItemInfo } from "../components/CheckoutItemInfo"
-
 export const Checkout = () => {
     return (
         <Container>
