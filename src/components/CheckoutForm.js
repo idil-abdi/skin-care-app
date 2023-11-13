@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 export const CheckoutForm = () => {
     return (
-        <div className="col-sm-4 border py-2">
+        <div className="border py-2">
             <Form>
             <Form.Group className="mb-3" controlId="formEmail">
                 <Form.Label>Email address</Form.Label>

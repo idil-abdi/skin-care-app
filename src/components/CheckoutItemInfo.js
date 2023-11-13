@@ -2,8 +2,6 @@ import { Button, Stack } from "react-bootstrap"
 import DropletImg from '../img/droplets.png'
 import ProductImg from '../img/niacinamide.png'
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import { Dash } from 'react-bootstrap-icons';
 
 
@@ -13,32 +11,33 @@ export const CheckoutItemInfo = () => {
         backgroundImage: `url(${DropletImg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        width: '185px',
+        maxWidth: '185px',
     }
 
     return (
-        <div className="col-sm-6 border">
+        <div className="border">
             <h1>1 Item</h1>
             <hr/>
                     <Card>
-                        <Row className="gx-0 ">
-                            <Col >
-                                <Card.Img style={headerBackground} src={ProductImg}/>
-                            </Col>
-                            <Col md={7} lg={8}>
-                                <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit
-                                    longer.
-                                </Card.Text>
-                                </Card.Body>
-                                <div className='d-flex justify-content-end p-2'>
-                    <Button className='border-0 bg-success' ><Dash/></Button>
-                </div>
-                            </Col>
-                        </Row>
+                        <Stack >
+                            <div className="d-flex flex-wrap">
+                            <div style={headerBackground} >
+                                <Card.Img src={ProductImg}/>
+                            </div>
+                            <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                            <Card.Text>
+                                This is a longer card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit
+                                longer.
+                            </Card.Text>
+                        
+                            <div className='d-flex justify-content-end p-2'>
+                                <Button className='border-0 bg-success' ><Dash/></Button>
+                            </div>
+                            </Card.Body>
+                            </div>
+                        </Stack>
                     </Card>
             <hr/>
             <Stack direction="horizontal" className="justify-content-between">
