@@ -1,7 +1,6 @@
 import { Button, Image } from 'react-bootstrap';
 import { Stack } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
-import ModalImg from '../img/modalImg.png'
 import DropletImg from '../img/droplets.png'
 import StarRating from '../img/starRating.png'
 import { ProductAccordion } from './ProductAccordion';
@@ -17,6 +16,8 @@ export const ProductModal = (props) => {
     const blurBg = {
         backdropFilter: 'blur(1px)'
     }
+
+    const product = props.product;
     return(
         <Modal
         {...props}
@@ -28,20 +29,20 @@ export const ProductModal = (props) => {
         >
         <Modal.Header closeButton className='bg-warning-subtle'>
             <Modal.Title id="contained-modal-title-vcenter">
-            <h3>The Ordinary - Niacinamide Serum</h3>
+            <h3>{product.productName}</h3>
             <img alt='rating' src={StarRating}/>
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='bg-warning-subtle '>
             <Stack className='justify-content-evenly'>
                 <div style={headerBackground} className='m-auto'>
-                    <Image  width={400} src={ModalImg}/>                
+                    <Image  width={400} src={product.image}/>                
                 </div>
                 <div>
-                    <ProductAccordion/>
+                    <ProductAccordion product={product}/>
                     <div className='d-flex gap-2 justify-content-end mt-3'>
                     <Button variant="success">Add to Checkout</Button>
-                    <p className=' border rounded px-3 py-2 m-0  bg-success text-white'>£8.00</p>
+                    <p className=' border rounded px-3 py-2 m-0  bg-success text-white'>{product.displayPrice}</p>
                     </div>
                 </div>
             </Stack>
