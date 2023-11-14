@@ -107,6 +107,105 @@ const products = [
             count: 9
         }        
     },
+    {
+        id: "8",
+        productName: "CLEARER SKIN CLEANSE DUO",
+        image: "productsImg/img8.png",
+        category: "inkey list",
+        price: 1799,
+        displayPrice: "£17.99",
+        discription: "The optimal anti-acne routine will keep skin feeling nourished and hydrated, while also tackling breakouts and blemishes. Washing your face in your AM and PM routine will prevent the build up of dirt and debris on the surface and avoid build up in the pores that can lead to breakouts.",
+        ingridents: "N/A",
+        instruction: `Start your double cleanse with our Oat Cleansing Balm, which hydrates and moisturizes the skin and effectively removes makeup and SPF. Follow with our popular Salicylic Acid Cleanser which penetrates deep into pores to treat and prevent blemishes. The formula itself is non-drying, meaning it won’t strip skin or leave you feeling uncomfortable.`,
+        rating: {
+            stars: 4.8,
+            count: 22
+        }        
+    },
+    {
+        id: "9",
+        productName: "SALICYLIC ACID CLEANSER",
+        image: "productsImg/img9.png",
+        category: "inkey list",
+        price: 899,
+        displayPrice: "£8.99",
+        discription: "Specially formulated for blemish, combination and oily-prone skin, our bestselling Salicylic Acid Cleanser is your ultimate skin-clearing facial cleanser that visibly reduces blackheads and breakouts for a clearer-looking complexion.​​",
+        ingridents: "Water (Aqua/Eau), Propanediol, Glycerin, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, PEG-120 Methyl Glucose Dioleate, Salicylic Acid, PEG-150 Pentaerythrityl Tetrastearate, PEG-6 Caprylic/Capric Glycerides, Betaine, Zinc PCA, Phenoxyethanol, Sodium Chloride, Allantoin, Sodium Hydroxide, Coco-Glucoside, Glyceryl Oleate, Benzyl Alcohol, Coconut Acid, Ethylhexylglycerin, Sodium Benzoate, Citric Acid, Dehydroacetic Acid, Trisodium Ethylenediamine Disuccinate, Tocopherol, Hydrogenated Palm Glycerides Citrate.",
+        instruction: `Gentle enough for daily use, the non-drying, exfoliating gel cleanser helps to unclog pores and remove dirt, impurities, and excess oil leaving skin feeling deeply clean and clarified.​​`,
+        rating: {
+            stars: 4.4,
+            count: 623
+        }        
+    },
+    {
+        id: "10",
+        productName: "TRIPEPTIDE PLUMPING LIP BALM",
+        image: "productsImg/img10.png",
+        category: "inkey list",
+        price: 10.00,
+        displayPrice: "£10.00",
+        discription: "Clinically proven to plump lips by up to 40% in 4 weeks*, Tripeptide Plumping Lip Balm hydrates, repairs and plumps lips leaving them looking naturally fuller and healthier. Specially formulated for maximum fullness without any tingle or irritation, the plumping balm works over time to visibly increase lip volume. So now your lips not only look plumper but, ARE plumper. No filter, no filler, just fuller.",
+        ingridents: "Ricinus Communis (Castor) Seed Oil, Hydroxystearic/Linolenic/Oleic Polyglycerides, Glyceryl Rosinate, Theobroma Grandiflorum (Cupuaçu) Seed Butter, Butyrospermum Parkii (Shea) Butter, Ethylhexyl Palmitate, Candelilla Cera, Mangifera Indica (Mango) Seed Butter, Orbignya Oleifera (Babassu) Seed Oil, Squalane, Cetearyl Ethylhexanoate, Hydrogenated Olive Oil, Salvia Hispanica (Chia) Seed Oil, Caprylic/Capric Triglyceride, Glyceryl Behenate, Olea Europaea (Olive) Oil Unsaponifiables, Tribehenin, Sorbitan Isostearate, Tocopherol, Portulaca Pilosa Extract, Trihydroxystearin, Helianthus Annuus (Sunflower) Seed Oil, Sucrose Cocoate, Brassica Alba Sprout Extract, Sodium Hyaluronate, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-38, Glucomannan.",
+        instruction: `For best results, use AM and PM, at least 3 times a day for 4 weeks. Apply a small amount to clean, dry lips.`,
+        rating: {
+            stars: 4.0,
+            count: 556
+        }        
+    },
+    {
+        id: "11",
+        productName: "OMEGA WATER CREAM",
+        image: "productsImg/img11.png",
+        category: "inkey list",
+        price: 7.49,
+        displayPrice: "£7.49",
+        discription: "Ideal for oily, dehydrated and combination skin, our Omega Water Cream is a silky, oil and silicone free moisturiser that's clinically proven to increase skin hydration and help minimize excess oiliness in the skin. The innovative gel-cream formula instantly transforms into a fresh, water-like texture on contact with the skin, delivering a lightweight veil of immediate hydration. Skin looks smoother and more even with a dewy finish. ​",
+        ingridents: "Water (Aqua / Eau), Dicaprylyl Carbonate, Glycerin, Niacinamide, Propanediol, Betaine, Polyglyceryl-4 Isostearate, Coco-Caprylate/Caprate, Magnesium Sulfate, Glycosphingolipids, Glycolipids, Sodium Benzoate, Disteardimonium Hectorite, Oleic Acid, Potassium Sorbate, Citric Acid, Polyglycerin-3.",
+        instruction: `Can be used in your AM & PM skincare routine.
+                    After cleansing and hydrating with Hyaluronic Acid Serum, gently massage a pea sized amount of Omega Water Cream onto the face and neck.
+                    Apply SPF as the last step in your AM skincare routine.`,
+        rating: {
+            stars: 4.3,
+            count: 749
+        }        
+    },
+    {
+        id: "12",
+        productName: "RETINOL SERUM",
+        image: "productsImg/img12.png",
+        category: "inkey list",
+        price: 974,
+        displayPrice: "£9.74",
+        discription: "The ideal Retinol for beginners to introduce your skin to this powerful ingredient. Specially formulated with a slow-release, less irritating form of Retinol, the skin-renewing serum targets first signs of aging and hyperpigmentation. Working to visibly improve the appearance of fine lines, wrinkles and overall skin tone and texture with continued improvement over time.​​",
+        ingridents: "Water (Aqua / Eau), Glycerin, Butylene Glycol, Propanediol, Dicaprylyl Carbonate, Retinyl Acetate, Dimethicone, Phenoxyethanol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Caprylyl Glycol, Phospholipids, Squalane, Glycine Soja (Soybean) Oil, Carbomer, Polysorbate 60, Tocopheryl Acetate, Glycolipids, Sodium Hydroxide, Sodium Phytate, Sorbitan Isostearate, Glycine Soja (Soybean) Sterols, Tetrahexyldecyl Ascorbate, Leuconostoc/Radish Root Ferment Filtrate, Hyaluronic Acid, Sodium Lactate, Tocopherol, Polysorbate 20, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1",
+        instruction: `Only use Retinol Serum in your PM skincare routine.
+                    After cleansing and hydrating with Hyaluronic Acid Serum, apply a pea-sized amount of Retinol Serum and massage into to the face and neck.
+                    For the fragile skin around the eyes, we recommend using Retinol Eye Cream
+                    Follow with your preferred moisturiser.
+                    Start off using it 1-2 times per week and increase gradually if your skin can tolerate more frequent use.`,
+        rating: {
+            stars: 4.5,
+            count: 482
+        }        
+    },
+    {
+        id: "13",
+        productName: "PEPTIDE MOISTURISER",
+        image: "productsImg/img13.png",
+        category: "inkey list",
+        price: 11.00,
+        displayPrice: "£11.00",
+        discription: "A nurturing yet fast-absorbing daily face moisturiser for dry skin. Its dual peptide formula aims to reduce the appearance of fine line & wrinkles and balance skin's natural oil levels. With continued use, Peptide Moisturiser helps to support natural collagen and hydrate skin, leaving skin looking youthful.",
+        ingridents: "Aqua (Water/Eau), Caprylic/Capric Triglyceride, Glycerin, C12-15 Alkyl Benzoate, Cetearyl Alcohol, Glyceryl Stearate SE, Betaine, Butylene Glycol, Phenoxyethanol, Benzyl Alcohol, Carbomer, Butyrospermum Parkii (Shea) Butter, Sodium Stearoyl Glutamate, Sodium Hydroxide, Ethylhexyl-glycerin, Sodium Gluconate, Tocopheryl Acetate, Dehydroacetic Acid, Hydrogenated Lecithin, Phenethyl Alcohol, Acetyl Hexapeptide-37, Maltodextrin, Pentapeptide-48.",
+        instruction: `Can be used in your AM & PM skincare routine.
+                    After cleansing and hydrating with Hyaluronic Acid Serum, gently massage a pea sized amount of Peptide Moisturiser onto the face and neck.
+                    Follow with oil if desired. We suggest using Rosehip Oil in your PM skincare routine for even softer skin by morning.
+                    Apply SPF as the last step in your AM skincare routine.`,
+        rating: {
+            stars: 4.2,
+            count: 174
+        }        
+    },
 ]
 
 

@@ -20,11 +20,11 @@ export const CheckoutItemInfo = () => {
             <hr/>
                     <Card>
                         <Stack >
-                            <div className="d-flex flex-wrap">
-                            <div style={headerBackground} >
+                            <div className="row mx-2">
+                            <div style={headerBackground} className="" >
                                 <Card.Img src={ProductImg}/>
                             </div>
-                            <Card.Body>
+                            <Card.Body  className="col-2" >
                             <Card.Title>Card title</Card.Title>
                             <Card.Text>
                                 This is a longer card with supporting text below as a natural
